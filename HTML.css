@@ -1,0 +1,29 @@
+body{
+    background-color:gray;
+}
+#fr{
+    background-color: chocolate;
+}
+#sc{
+    background-color: palegreen;
+}
+#th{
+    background-color: pink;
+}
+/* .a{
+    background-color: aqua;
+}
+.b{
+    background-color: goldenrod;
+}
+.c{
+    color: white;
+}
+.d{
+    color: red;
+} */
+.e{
+    font: italic small-caps bold 16px/2 cursive;
+}
+details{background-color: antiquewhite;
+        color: aqua;}
