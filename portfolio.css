@@ -1,14 +1,66 @@
-header{
+header {
     padding: 1rem 0;
     background-color: red;
+    
 }
 
-header>div{
-
+header>div {
+    display:flex
 }
-header nav>ul{
+
+header nav>ul {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 1rem;
+}
+
+main>section {
+    height: 100vh;
+
+}
+
+main>section>div {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aa {
+    background-color: blueviolet;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aa>h1{
+    font-size: 1cm;
+}
+.aa h2{
+    font-size: 2cm;
+}
+
+.ab {
+    background-color: aqua;
+    flex: 1;
+}
+.ac {
+    background-color: blueviolet;
+    flex: 1;
+    
+}
+.ac h2{
+    font-size: 1cm;
+}
+.ac h3{
+    font-size: 2cm;
+}
+
+.ad {
+    background-color: aqua;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
