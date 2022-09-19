@@ -1,1 +1,14 @@
-body{}
+header{
+    padding: 1rem 0;
+    background-color: red;
+}
+
+header>div{
+
+}
+header nav>ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
