@@ -25,5 +25,32 @@ body{
 .e{
     font: italic small-caps bold 16px/2 cursive;
 }
-details{background-color: antiquewhite;
+details{background-color: red;
         color: aqua;}
+p{background-color: rgb(151, 0, 0);
+        color: rgb(0, 0, 255);}
+body{
+    background-color:gray;
+}
+
+#qwe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    /* justify-content:space-around; */
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    height: 100vh;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background: rgb(249, 90, 90);
+    
+
+}

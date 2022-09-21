@@ -1,19 +1,35 @@
 header {
-    padding: 1rem 0;
+    padding: 1rem;
     background-color: red;
-    
 }
 
-header>div {
-    display:flex
+header > div {
+    max-width: 1028px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header nav>ul {
+header nav > ul {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 1rem;
 }
+
+header nav > ul > li {
+    list-style: none;
+}
+
+header nav > ul > li > a {
+    padding: 0.5rem;
+}
+
+header address {
+    display: flex;
+    align-items: center;
+  }
 
 main>section {
     height: 100vh;
@@ -32,11 +48,12 @@ main>section>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .aa>h1{
     font-size: 1cm;
 }
-.aa h2{
+.aa h3{
     font-size: 2cm;
 }
 
@@ -62,5 +79,5 @@ main>section>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
