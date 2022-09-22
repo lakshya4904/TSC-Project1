@@ -33,23 +33,76 @@ body{
     background-color:gray;
 }
 
-#qwe{
+/* #qwe{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid black;
-    /* justify-content:space-around; */
+    justify-content:space-around;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     align-content: center;
-    height: 100vh;
+    height: 100vh;} */
 
+    #qwe{
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(4,100px);
+        gap: 1rem;
+        height: 100vh;
+
+    }
+
+    #qwe>:nth-child(1){
+        grid-column: span 2;
+    }
+
+    #qwe>:nth-child(3){
+        grid-row: span 4;
+    }
+
+    #qwe>:nth-child(5){
+        grid-column: span 2;
+    }
+
+    #qwe>:nth-child(6){
+        grid-row: span 2;
+    }
+
+    #qwe>:nth-child(9){
+        grid-column: span 2;
+    }
+
+#qw{
+    display: grid;
+    grid-template: 
+    "header header"100px
+    "aside main"
+    "footer footer"100px/ 200px auto;
+    gap: 1rem;
+    height: 100vh;
+}
+
+#qw>:nth-child(1){
+    grid-area: header;
+}
+
+#qw>:nth-child(2){
+    grid-area: aside;
+}
+
+#qw>:nth-child(3){
+    grid-area: main;
+}
+
+#qw>:nth-child(4){
+    grid-area: footer;
 }
 
 .box{
-    height: 100px;
+    /* height: 100px;
     width: 100px;
-    margin: 10px;
+    margin: 10px; */
     background: rgb(249, 90, 90);
     
 
