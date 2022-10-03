@@ -7,3 +7,8 @@ https://www.freepik.com/
 https://www.canva.com/en_gb/
 
 https://fontawesome.com/
+
+https://coding.imweb.io/demo/flex/index.html
+
+https://youtemplate.webflow.io/
+

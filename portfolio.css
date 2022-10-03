@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 header {
-    padding: 1rem;
+    padding: 1rem ;
     background-color: red;
 }
 
@@ -37,7 +37,7 @@ main>section {
 
 }
 
-main>section>div {
+main section div {
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -51,17 +51,17 @@ main>section>div {
     justify-content: center;
     align-items: center;
 }
-.aa>h1{
+.aa h1{
     font-size: 1cm;
 }
 .aa h3{
     font-size: 2cm;
 }
 
-.ab {
+/* .ab {
     background-color: aqua;
     flex: 1;
-}
+} */
 .ac {
     background-color: blueviolet;
     flex: 1;
@@ -81,99 +81,4 @@ main>section>div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.box{
-    height: 100px;
-    width: 400px;
-    margin: 10px;
-    background: rgb(249, 90, 90);
-    align-items: center;
-    justify-content: center;
-    
-
-=======
-header {
-    padding: 1rem;
-    background-color: red;
-}
-
-header > div {
-    max-width: 1028px;
-    margin:auto;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav > ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-}
-
-header nav > ul > li {
-    list-style: none;
-}
-
-header nav > ul > li > a {
-    padding: 0.5rem;
-}
-
-header address {
-    display: flex;
-    align-items: center;
-  }
-
-main>section {
-    height: 100vh;
-
-}
-
-main>section>div {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-}
-
-.aa {
-    background-color: blueviolet;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.aa>h1{
-    font-size: 1cm;
-}
-.aa h3{
-    font-size: 2cm;
-}
-
-.ab {
-    background-color: aqua;
-    flex: 1;
-}
-.ac {
-    background-color: blueviolet;
-    flex: 1;
-    
-}
-.ac h2{
-    font-size: 1cm;
-}
-.ac h3{
-    font-size: 2cm;
-}
-
-.ad {
-    background-color: aqua;
-    flex: 1.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
->>>>>>> 876dba17da77de4cd3df5326309000896eaa2aee
 }
