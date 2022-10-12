@@ -1,4 +1,4 @@
-:root {
+  :root {
     --primary-color: #fff;
     --secondary-color-1: #ebf8ff;
     --secondary-color-2: #fff5d2;
@@ -19,6 +19,7 @@
     line-height: 1.777em;
     font-weight: 500;
     color: var(--Neutral-color-600);
+    margin: 0;
   }
   
   h1 {
@@ -73,21 +74,30 @@
     line-height: 1.818em;
   }
 
-.pack {
+  .pack {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 2rem;
     background-color: var(--Neutral-color-700);
+    grid-column-gap: 48px;
+    grid-row-gap: 40px;
   }
+
+  /* .pack{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  } */
   .card {
     background: var(--Neutral-color-500);
-    height: auto;
-    width: 500px;
     display: flex;
     border-radius: 20px;
     box-sizing: border-box;
     padding: 32px;
-    /* overflow-wrap: normal;
-    flex-wrap: wrap; */
+    align-items: flex-start;
+    overflow: hidden;
 
   }
