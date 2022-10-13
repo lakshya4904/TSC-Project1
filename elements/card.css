@@ -1,103 +1,145 @@
-  :root {
-    --primary-color: #fff;
-    --secondary-color-1: #ebf8ff;
-    --secondary-color-2: #fff5d2;
-    --secondary-color-3: #f3fbff;
-    --secondary-color-4: #f3eeff;
-    --Neutral-color-100: #ffffff;
-    --Neutral-color-200: #f6f7ff;
-    --Neutral-color-300: #eff0f6;
-    --Neutral-color-400: #d9dbe9;
-    --Neutral-color-500: #b2b4c4;
-    --Neutral-color-600: #777990;
-    --Neutral-color-700: #4e4b66;
-    --Neutral-color-800: #14142b;
-  }
-  
-  body {
-    font-size: 1.125rem;
-    line-height: 1.777em;
-    font-weight: 500;
-    color: var(--Neutral-color-600);
-    margin: 0;
-  }
-  
-  h1 {
-    font-size: 3.778em;
-    line-height: 1.3em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  h2 {
-    font-size: 2.333em;
-    line-height: 1.38em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  h3 {
-    font-size: 1.333em;
-    line-height: 1.333em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  h4 {
-    font-size: 1.222em;
-    line-height: 1.272em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  h5 {
-    font-size: 1em;
-    line-height: 1.333em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  h6 {
-    font-size: 0.889em;
-    line-height: 1.375em;
-    font-weight: 700;
-    color: var(--Neutral-color-800);
-  }
-  
-  p.small {
-    font-size: 8.333em;
-    line-height: 1.6em;
-  }
-  
-  p.large {
-    font-size: 1.22em;
-    line-height: 1.818em;
-  }
+*{
+  margin: 0;
+  padding: 0;
 
-  .pack {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 2rem;
-    background-color: var(--Neutral-color-700);
-    grid-column-gap: 48px;
-    grid-row-gap: 40px;
-  }
+}
 
-  /* .pack{
+:root {
+  --primary-color: #fff;
+  --secondary-color-1: #ebf8ff;
+  --secondary-color-2: #fff5d2;
+  --secondary-color-3: #f3fbff;
+  --secondary-color-4: #f3eeff;
+  --Neutral-color-100: #ffffff;
+  --Neutral-color-200: #f6f7ff;
+  --Neutral-color-300: #eff0f6;
+  --Neutral-color-400: #d9dbe9;
+  --Neutral-color-500: #b2b4c4;
+  --Neutral-color-600: #777990;
+  --Neutral-color-700: #4e4b66;
+  --Neutral-color-800: #14142b;
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.777em;
+  font-weight: 500;
+  color: var(--Neutral-color-600);
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.778em;
+  line-height: 68px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+h2 {
+  font-size: 2.333em;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+h3 {
+  font-size: 1.333em;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+h4 {
+  font-size: 1.222em;
+  line-height: 22px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+h6 {
+  font-size: 0.889em;
+  line-height: 16px;
+  font-weight: 700;
+  color: var(--Neutral-color-800);
+}
+
+p.small {
+  font-size: 8.333em;
+  line-height: 1.6em;
+}
+
+p.large {
+  font-size: 1.22em;
+  line-height: 1.818em;
+}
+
+.pack {
   display: grid;
-  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+  gap: 2rem;
+  background-color: var(--Neutral-color-700);
   grid-column-gap: 48px;
   grid-row-gap: 40px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  } */
-  .card {
-    background: var(--Neutral-color-500);
-    display: flex;
-    border-radius: 20px;
-    box-sizing: border-box;
-    padding: 32px;
-    align-items: flex-start;
-    overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1160px;
+  margin: auto;
+  padding: 0 1.5rem;
+  justify-content: space-around;
+}
 
-  }
+/* .pack{
+display: grid;
+grid-auto-columns: 1fr;
+grid-column-gap: 48px;
+grid-row-gap: 40px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+} */
+
+.title-services {
+  max-width: 750px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #fff;
+  grid-column: span 2;
+}
+
+.title-services>h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.title-services>p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  background: var(--Neutral-color-500);
+  display: flex;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  align-items: flex-start;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+
+.img {
+  border-radius: 20px;
+  margin-right: 24px;
+}
+
+.card h3 {
+  margin-bottom: 16px;
+}
