@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-
 }
 
 :root {
@@ -93,15 +92,6 @@ p.large {
   padding: 0 1.5rem;
   justify-content: space-around;
 }
-
-/* .pack{
-display: grid;
-grid-auto-columns: 1fr;
-grid-column-gap: 48px;
-grid-row-gap: 40px;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
-} */
 
 .title-services {
   max-width: 750px;

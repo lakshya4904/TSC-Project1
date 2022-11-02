@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-color: #fff;
   --secondary-color-1: #ebf8ff;
@@ -19,46 +24,47 @@ body {
   line-height: 1.777em;
   font-weight: 500;
   color: var(--Neutral-color-600);
+  margin: 0;
 }
 
 h1 {
   font-size: 3.778em;
-  line-height: 1.3em;
+  line-height: 68px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
 
 h2 {
   font-size: 2.333em;
-  line-height: 1.38em;
+  line-height: 42px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
 
 h3 {
   font-size: 1.333em;
-  line-height: 1.333em;
+  line-height: 28px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
 
 h4 {
   font-size: 1.222em;
-  line-height: 1.272em;
+  line-height: 22px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
 
 h5 {
   font-size: 1em;
-  line-height: 1.333em;
+  line-height: 18px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
 
 h6 {
   font-size: 0.889em;
-  line-height: 1.375em;
+  line-height: 16px;
   font-weight: 700;
   color: var(--Neutral-color-800);
 }
@@ -168,13 +174,55 @@ figcaption {
 /* text trasform */
 .pack {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
   gap: 2rem;
+  background-color: var(--Neutral-color-700);
+  grid-column-gap: 48px;
+  grid-row-gap: 40px;
+  box-sizing: border-box;
+  max-width: 1160px;
+  margin: auto;
+  padding: 0 1.5rem;
+  justify-content: space-around;
 }
+
+.title-services {
+  max-width: 750px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #fff;
+  grid-column: span 2;
+}
+
+.title-services>h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.title-services>p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
 .card {
-  background: var(--Neutral-color-200);
-  height: 200px;
-  width: 500px;
+  background: var(--Neutral-color-500);
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  align-items: flex-start;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+
+.img {
+  border-radius: 20px;
+  margin-right: 24px;
+}
+
+.card h3 {
+  margin-bottom: 16px;
 }
